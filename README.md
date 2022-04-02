@@ -1,2 +1,17 @@
 # hackchat.py
-Web&amp;Mobile-API for hack.chat chatroom app
+Web-API for [hack.chat](https://hack.chat) chatroom app
+
+## Example
+```python3
+# simple welcome bot
+import hackchat
+
+def welcome_user(hcclient: hackchat.HackChatClient, message: str, user: str):
+    if "hello" in message.lower():
+        hcclient.send_message(f"Wassup {user}!")
+        print(f"-- Greeted the user::: {user}!")
+        
+hcclient = hackchat.HackChatClient(nickname="WelcomeBot", channel="programming")
+hcclient.messages += [welcome_user]
+hcclient.on_message()
+```
