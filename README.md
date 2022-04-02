@@ -1,5 +1,6 @@
 # hackchat.py
 Web-API for [hack.chat](https://hack.chat) chatroom app
+![](https://raw.githubusercontent.com/AndrewBelt/hack.chat/master/screenshot.png)
 
 ## Example
 ```python3
