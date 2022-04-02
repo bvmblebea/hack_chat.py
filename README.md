@@ -1,5 +1,5 @@
 # hackchat.py
-Web-API for [hack.chat](https://hack.chat) chatroom app
+Web-API for [hack.chat](https://hack.chat) chatrooms website
 ![](https://raw.githubusercontent.com/AndrewBelt/hack.chat/master/screenshot.png)
 
 ## Example
