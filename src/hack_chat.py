@@ -4,7 +4,7 @@ from threading import Thread
 from json import dumps, loads
 
 
-class HackChatClient:
+class HackChat:
     def __init__(
             self,
             nickname: str,
