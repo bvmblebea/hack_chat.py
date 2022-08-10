@@ -1,4 +1,4 @@
-# hackchat.py
+# hack_chat.py
 Web-API for [hack.chat](https://hack.chat) minimal, distraction-free chat application
 ![](https://raw.githubusercontent.com/AndrewBelt/hack.chat/master/screenshot.png)
 
